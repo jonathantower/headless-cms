@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  display: flex;
+}
+
+body > main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+section label {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+section button {
+  padding: 8px 16px 8px 16px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  background-color: #9caed4;
+}
+
+section button:hover {
+  background-color: #8697bb;
+}
+
+section button:active {
+  background-color: #7d9ada;
+}
+
+header {
+  flex: 0;
+  padding: 8px;
+  font-size: 16px;
+}
+
+footer {
+  flex: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #353a50;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+}
+
+footer .left {
+  flex: 0;
+  white-space: nowrap;
+}
+
+footer .middle {
+  flex: 1;
+}
+
+footer .right {
+  flex: 0;
+  white-space: nowrap;
+}
+
